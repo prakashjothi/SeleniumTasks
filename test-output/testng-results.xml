@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10935" started-at="2021-09-24T23:57:08Z" finished-at="2021-09-24T23:57:19Z">
+  <suite name="Default suite" duration-ms="12119" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10935" started-at="2021-09-24T23:57:08Z" finished-at="2021-09-24T23:57:19Z">
-      <class name="org.launch.LaunchBrowser">
-        <test-method status="PASS" signature="launchTest()[pri:0, instance:org.launch.LaunchBrowser@14acaea5]" name="launchTest" duration-ms="10864" started-at="2021-09-24T23:57:08Z" finished-at="2021-09-24T23:57:19Z">
+    <test name="Default test" duration-ms="12119" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
+      <class name="org.locator.AamzonTest">
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:org.locator.AamzonTest@14acaea5]" name="launchTest" duration-ms="12054" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTest -->
-      </class> <!-- org.launch.LaunchBrowser -->
+      </class> <!-- org.locator.AamzonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
