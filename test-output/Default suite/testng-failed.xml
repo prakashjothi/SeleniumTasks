@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.locator.AamzonTest">
+      <class name="org.actions.ActionsTest">
         <methods>
-          <include name="launchTest"/>
+          <include name="mouseActions"/>
         </methods>
-      </class> <!-- org.locator.AamzonTest -->
+      </class> <!-- org.actions.ActionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

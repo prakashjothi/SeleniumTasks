@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12119" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
+  <suite name="Default suite" duration-ms="12896" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12119" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
-      <class name="org.locator.AamzonTest">
-        <test-method status="PASS" signature="launchTest()[pri:0, instance:org.locator.AamzonTest@14acaea5]" name="launchTest" duration-ms="12054" started-at="2021-09-25T00:42:34Z" finished-at="2021-09-25T00:42:46Z">
+    <test name="Default test" duration-ms="12896" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
+      <class name="org.actions.ActionsTest">
+        <test-method status="PASS" signature="mouseActions()[pri:0, instance:org.actions.ActionsTest@14acaea5]" name="mouseActions" duration-ms="12826" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchTest -->
-      </class> <!-- org.locator.AamzonTest -->
+        </test-method> <!-- mouseActions -->
+      </class> <!-- org.actions.ActionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
