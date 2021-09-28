@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12896" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
+  <suite name="Default suite" duration-ms="11820" started-at="2021-09-28T16:30:57Z" finished-at="2021-09-28T16:31:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12896" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
-      <class name="org.actions.ActionsTest">
-        <test-method status="PASS" signature="mouseActions()[pri:0, instance:org.actions.ActionsTest@14acaea5]" name="mouseActions" duration-ms="12826" started-at="2021-09-28T00:02:48Z" finished-at="2021-09-28T00:03:01Z">
+    <test name="Default test" duration-ms="11820" started-at="2021-09-28T16:30:57Z" finished-at="2021-09-28T16:31:09Z">
+      <class name="org.robotclass.RobotTest">
+        <test-method status="PASS" signature="robotGreens()[pri:0, instance:org.robotclass.RobotTest@14acaea5]" name="robotGreens" duration-ms="11740" started-at="2021-09-28T16:30:57Z" finished-at="2021-09-28T16:31:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseActions -->
-      </class> <!-- org.actions.ActionsTest -->
+        </test-method> <!-- robotGreens -->
+      </class> <!-- org.robotclass.RobotTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
