@@ -20,7 +20,8 @@ public class AamzonTest {
 		
 		AmazonHome ah = new AmazonHome(driver);
 		ah.getTxtBoxSearch().sendKeys("iphone");
-		ah.getTxtBtnSearch().click();
+		System.out.println(ah.getTxtBoxSearch().getAttribute("value"));
+
 		
 				
 	}
