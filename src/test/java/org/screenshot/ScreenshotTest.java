@@ -3,6 +3,7 @@ package org.screenshot;
 import java.io.IOException;
 
 import org.baseclass.BaseClassSelTasks;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class ScreenshotTest extends BaseClassSelTasks {
