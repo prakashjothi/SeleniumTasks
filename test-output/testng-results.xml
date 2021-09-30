@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10119" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
+  <suite name="Default suite" duration-ms="7485" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10119" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
-      <class name="org.alerts.AlertTest">
-        <test-method status="PASS" signature="demoAlert()[pri:0, instance:org.alerts.AlertTest@61832929]" name="demoAlert" duration-ms="10047" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
+    <test name="Default test" duration-ms="7485" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
+      <class name="org.dropdown.DropdownTest">
+        <test-method status="PASS" signature="multidropdown()[pri:0, instance:org.dropdown.DropdownTest@61832929]" name="multidropdown" duration-ms="7439" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoAlert -->
-      </class> <!-- org.alerts.AlertTest -->
+        </test-method> <!-- multidropdown -->
+      </class> <!-- org.dropdown.DropdownTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
