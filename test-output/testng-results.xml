@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15255" started-at="2021-09-28T23:21:57Z" finished-at="2021-09-28T23:22:12Z">
+  <suite name="Default suite" duration-ms="10119" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15255" started-at="2021-09-28T23:21:57Z" finished-at="2021-09-28T23:22:12Z">
-      <class name="org.screenshot.ScreenshotTest">
-        <test-method status="PASS" signature="greenScreenshot()[pri:0, instance:org.screenshot.ScreenshotTest@61832929]" name="greenScreenshot" duration-ms="8898" started-at="2021-09-28T23:21:57Z" finished-at="2021-09-28T23:22:06Z">
+    <test name="Default test" duration-ms="10119" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
+      <class name="org.alerts.AlertTest">
+        <test-method status="PASS" signature="demoAlert()[pri:0, instance:org.alerts.AlertTest@61832929]" name="demoAlert" duration-ms="10047" started-at="2021-09-30T00:03:55Z" finished-at="2021-09-30T00:04:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- greenScreenshot -->
-        <test-method status="PASS" signature="toolsScroll()[pri:0, instance:org.screenshot.ScreenshotTest@61832929]" name="toolsScroll" duration-ms="6276" started-at="2021-09-28T23:22:06Z" finished-at="2021-09-28T23:22:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toolsScroll -->
-      </class> <!-- org.screenshot.ScreenshotTest -->
+        </test-method> <!-- demoAlert -->
+      </class> <!-- org.alerts.AlertTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
