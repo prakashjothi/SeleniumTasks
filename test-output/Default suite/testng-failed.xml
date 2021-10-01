@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.dropdown.DropdownTest">
+      <class name="org.webtable.WebTableTest">
         <methods>
-          <include name="facebookDropDown"/>
+          <include name="demoWebTable"/>
         </methods>
-      </class> <!-- org.dropdown.DropdownTest -->
+      </class> <!-- org.webtable.WebTableTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
