@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7485" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
+  <suite name="Default suite" duration-ms="6681" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7485" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
-      <class name="org.dropdown.DropdownTest">
-        <test-method status="PASS" signature="multidropdown()[pri:0, instance:org.dropdown.DropdownTest@61832929]" name="multidropdown" duration-ms="7439" started-at="2021-09-30T23:54:39Z" finished-at="2021-09-30T23:54:47Z">
+    <test name="Default test" duration-ms="6681" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
+      <class name="org.webtable.WebTableTest">
+        <test-method status="PASS" signature="demoWebTable()[pri:0, instance:org.webtable.WebTableTest@61832929]" name="demoWebTable" duration-ms="6623" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multidropdown -->
-      </class> <!-- org.dropdown.DropdownTest -->
+        </test-method> <!-- demoWebTable -->
+      </class> <!-- org.webtable.WebTableTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
