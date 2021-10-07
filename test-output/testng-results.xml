@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1453" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
+  <suite name="Suite" duration-ms="99" started-at="2021-10-07T14:36:45Z" finished-at="2021-10-07T14:36:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1453" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
-      <class name="org.excel.ExcelTest">
-        <test-method status="PASS" signature="readExcel()[pri:0, instance:org.excel.ExcelTest@59f99ea]" name="readExcel" duration-ms="1378" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
+    <test name="Test" duration-ms="99" started-at="2021-10-07T14:36:45Z" finished-at="2021-10-07T14:36:45Z">
+      <class name="org.testxml.C">
+        <test-method status="PASS" signature="sampleC()[pri:0, instance:org.testxml.C@ae45eb6]" name="sampleC" duration-ms="15" started-at="2021-10-07T14:36:45Z" finished-at="2021-10-07T14:36:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readExcel -->
-      </class> <!-- org.excel.ExcelTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- sampleC -->
+      </class> <!-- org.testxml.C -->
+      <class name="org.testxml.B">
+        <test-method status="PASS" signature="sampleB()[pri:0, instance:org.testxml.B@68c4039c]" name="sampleB" duration-ms="0" started-at="2021-10-07T14:36:45Z" finished-at="2021-10-07T14:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleB -->
+      </class> <!-- org.testxml.B -->
+      <class name="org.testxml.A">
+        <test-method status="PASS" signature="sampleA()[pri:0, instance:org.testxml.A@3532ec19]" name="sampleA" duration-ms="31" started-at="2021-10-07T14:36:45Z" finished-at="2021-10-07T14:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleA -->
+      </class> <!-- org.testxml.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
