@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6681" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
+  <suite name="Default suite" duration-ms="1453" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6681" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
-      <class name="org.webtable.WebTableTest">
-        <test-method status="PASS" signature="demoWebTable()[pri:0, instance:org.webtable.WebTableTest@61832929]" name="demoWebTable" duration-ms="6623" started-at="2021-10-01T06:39:16Z" finished-at="2021-10-01T06:39:23Z">
+    <test name="Default test" duration-ms="1453" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
+      <class name="org.excel.ExcelTest">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:org.excel.ExcelTest@59f99ea]" name="readExcel" duration-ms="1378" started-at="2021-10-07T00:56:35Z" finished-at="2021-10-07T00:56:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoWebTable -->
-      </class> <!-- org.webtable.WebTableTest -->
+        </test-method> <!-- readExcel -->
+      </class> <!-- org.excel.ExcelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
