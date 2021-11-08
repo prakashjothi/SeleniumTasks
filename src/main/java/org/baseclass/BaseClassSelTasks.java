@@ -53,11 +53,27 @@ public class BaseClassSelTasks {
 		
 
 	}
-	
+
+	public void screenShotWithName(String name) throws IOException {
+
+		ts = (TakesScreenshot)driver;
+		
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File des = new File("C:\\Users\\jprne\\eclipse-workspace\\prakash\\SeleniumTasks\\Screenshots\\"+name+".png");
+		FileUtils.copyFile(src, des);
+		
+
+	}
 	public void scrollDown(WebElement webElement) {
 
 		js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true)",webElement);
+
+	}
+	
+	public void fillTextbox(WebElement e, String data) {
+		
+		e.sendKeys(data);
 
 	}
 	

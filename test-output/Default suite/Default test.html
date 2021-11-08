@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 07 19:54:40 IST 2021</td>
+<td>Started on:</td><td>Mon Nov 08 05:43:21 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13268 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11925 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.assertt.AssertTest.softAssertTest()'><b>softAssertTest</b><br>Test class: org.assertt.AssertTest</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	Verify username expected [manoj] but found [prakash],
-	Verify password expected [5678] but found [1234],
-	Verify url after login expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at org.assertt.AssertTest.softAssertTest(AssertTest.java:56)
+<td title='org.failedscreenshot.FailedScreenshotTest.FBDataProvider()'><b>FBDataProvider</b><br>Test class: org.failedscreenshot.FailedScreenshotTest<br>Parameters: manoj, 1234</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at org.failedscreenshot.FailedScreenshotTest.FBDataProvider(FailedScreenshotTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -107,13 +107,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1513867245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1513867245'><pre>java.lang.AssertionError: The following asserts failed:
-	Verify username expected [manoj] but found [prakash],
-	Verify password expected [5678] but found [1234],
-	Verify url after login expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at org.assertt.AssertTest.softAssertTest(AssertTest.java:56)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1209411469", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1209411469'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at org.failedscreenshot.FailedScreenshotTest.FBDataProvider(FailedScreenshotTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -140,8 +140,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>13</td>
-<td>org.assertt.AssertTest@42d80b78</td></tr>
+<td>3</td>
+<td>org.failedscreenshot.FailedScreenshotTest@57baeedf</td></tr>
 </table><p>
 </body>
 </html>
